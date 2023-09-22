@@ -12,7 +12,6 @@ const wordSearch = (letters, word) => {
   }
   return false;
 };
-
 const transpose = (letters) => {
   const transposed = []; 
   if (letters.length > 0) {
